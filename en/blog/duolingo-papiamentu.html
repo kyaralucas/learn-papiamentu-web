@@ -38,8 +38,6 @@
       <meta name="twitter:image" content="https://raw.githubusercontent.com/kyaralucas/learn-papiamentu-web/refs/heads/main/assets/social_share.png" />
       <meta name="twitter:url" content="https://learnpapiamentu.app/en/blog/duolingo-papiamentu" />
 
-
-
       </head>
 
     <body>
@@ -48,17 +46,30 @@
             <header class="sticky top-0 z-50 bg-white border-b border-[#c6c6c68f]">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div class="flex justify-between items-center h-16">
+
                 <!-- Logo / Brand -->
+                <div class="flex items-center">
                 <a href="https://learnpapiamentu.app/en">
                     <img 
                       src="/assets/app_icon.png" 
                       alt="app icon" 
                       width="48" 
                       height="48" 
-                      class="rounded-full object-cover border-2 border-white z-10"
+                      class="rounded-xl object-cover border-2 border-white z-10"
                     >
                   </a>
-                  
+                  </div>
+
+                  <div class="flex items-center gap-2">
+
+                     <!-- Contact us button -->
+                   <div class="relative inline-block text-left">
+                    <a href="mailto:kyaralucas@live.com" class="appearance-none flex items-center h-[42.5px] border border-[#c6c6c68f] rounded-full pl-5 pr-5 text-xs w-fit bg-white">
+                    Contact
+                    </a>
+                  </div>
+
+                <!-- Language selector -->
                 <div class="relative inline-block text-left">
                     <select
                       onchange="window.location.href = this.value"
@@ -68,7 +79,6 @@
                       <option value="https://learnpapiamentu.app/nl/blog/duolingo-papiaments">NL</option>
                     </select>
                   
-                    <!-- Language selector -->
                     <div class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -79,6 +89,8 @@
                       </svg>
                     </div>
                   </div>
+                </div>
+
               </div>
             </div>
           </header>
@@ -408,7 +420,7 @@
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
    
           <div class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <img src="/assets/app_icon.png" alt="used by 1" width="48" height="48" class="rounded-full object-cover border-2 border-white z-10"> 
+            <img src="/assets/app_icon.png" alt="used by 1" width="48" height="48" class="rounded-xl object-cover border-2 border-white z-10"> 
             <span class="ml-3 text-xl">Lora - Learn Papiamentu</span>
           </div>
           <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2025 Lora - Learn Papiamentu |
